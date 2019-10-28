@@ -66,6 +66,8 @@ Der Ruhestrom kann drastisch gesenkt werden:
 ![BME280 LDO removed](./images/BME280-ldo-removed.jpg)  
 Im Bild zu sehen: Der LDO ist entfernt und eine Lötbrücke ist am Level-Shifter gesetzt.
 
+Anstelle der Lötbrücke am Levelshifter kann man auch den Ein- und Ausgang des LDO überbrücken. Da die Abstände hier deutlich angenehmer sind, geht das deutlich leichter. Bitte vorher prüfen, welches der 3 Pads GND entspricht, die beiden anderen überbrücken. 
+
 ### Aufbau
 
 Der Aufbau gestaltet sich simpel. Wie gewöhnlich wird der CC1101, die Status-LED und der Taster nach der [allgemein gültigen Verdrahtung](/Grundlagen/01_hardware.html#verdrahtung) angeschlossen bzw. anhand der gewählte Platine bestückt.
